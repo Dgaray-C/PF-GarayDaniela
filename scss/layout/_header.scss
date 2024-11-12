@@ -1,0 +1,16 @@
+header {
+    grid-row: 1;
+    background-color: whitesmoke;
+    box-shadow: $sombra-leve;
+
+    ul {
+        li {
+            font-size: 20px;
+        }
+    }
+
+    img {
+        width: 200px;
+        height: 100%;
+    }
+}

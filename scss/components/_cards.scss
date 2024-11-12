@@ -1,0 +1,53 @@
+.card-index {
+    height: 350px;
+    overflow: hidden;
+    margin: 20px;
+
+    .card-text {
+        height: 100px;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-height: 200px;
+        overflow: hidden;
+    }
+
+    .card-img-top {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+.card-categoria {
+    height: 350px;
+    overflow: hidden;
+    margin: 10px;
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-text {
+        height: 100px;
+        font-size: 16px;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-height: 200px;
+        overflow: hidden;
+    }
+
+    .card-img-top {
+        border-radius: 10%;
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+}

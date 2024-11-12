@@ -1,0 +1,50 @@
+@import 'utilities/maps';
+@import 'layout/header';
+@import 'components/carrousel';
+@import 'components/cards';
+@import 'components/buttons';
+@import 'layout/footer';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    grid-row: 2;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        font-size: 16px;
+        padding: 10px;
+
+        h5 {
+            font-size: 20px;
+        }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        font-size: 14px;
+        padding: 8px;
+
+        h5 {
+            font-size: 18px;
+        }
+    }
+}
